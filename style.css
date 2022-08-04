@@ -1,0 +1,219 @@
+
+
+.container{
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    margin-left: 100px;
+    margin-right: 35px;
+}
+section[aria-label="navbar"]{
+    /* border: 2px solid black; */
+    /* width: 95%; */
+    position: relative;
+    top:40px;
+    left: 40px;
+
+}
+li{
+    list-style: none;
+}
+section[aria-label="navbar"] *{
+    position: relative;
+}
+img[alt="brand-logo"]{
+    width: 120px;
+    position: relative;
+    top:-18px
+}
+ul.list{
+    position: absolute;
+    margin: 0;
+    top:-50px;
+    left: 20%;
+    /* transform: translateX(-25%); */
+}
+ul.list *{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Orbitron';
+    position: relative;
+    font-weight: 450;
+}
+ul.list *:hover{
+    font-weight: 800;
+}
+
+li:hover::after{
+content: "";
+/* justify-content: center; */
+display: block;
+  width: 60%;
+  height: 2.4px;
+  background: black;
+  position: absolute;
+  bottom: -5px;
+  left: 20%;
+}
+.button-group{
+    position: absolute !important;
+    right: 240px;
+    top:10px
+
+}
+.button-group *{
+    position: relative;
+    display: inline-block;  
+}
+.nav-button{
+    background-color: #fff;
+    padding: 5px 40px;
+    color:grey;
+    font-size: 20px;
+    top: -13px;
+    border-radius: 13px;
+    font-weight: 400;
+    border-width: 2.5px;
+}
+.search-icon{
+    height: 2px;
+    margin-right: 10px;
+}
+section[aria-label="banner"]{
+    /* width: 95%; */
+    position: relative;
+    /* top:40px; */
+    left: 40px;
+}
+.hero-container{
+    /* border: 2px solid black; */
+    position: relative;
+    height: 660px;
+    margin-bottom: 0;
+}
+img[src="/assets/squares.png"]{
+    position: absolute;
+    bottom:0;
+    left: 150px;
+    width: 310px;
+}
+img[src="/assets/Image.png"]{
+    position: absolute;
+    top:110px;
+    height: 490px;
+    width: 400px;
+    border:none ;
+    /* display: none; */
+    /* margin: 0; */
+}
+.hero-container .hero-container-right{
+    /* position: absolute; */
+    /* position: relative; */
+    margin-bottom: 0;
+    right: 0;
+}
+.hero-description{
+    text-align: center;
+    width: 700px;
+}
+.hero-container>div:last-child{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0;
+    /* right:100px */
+    
+}
+.icons{
+    position: absolute;
+    bottom:0;
+    left: 250px;
+    /* transform: translate(-50%); */
+}
+.contact-heading{
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    font-weight: 600;
+position: relative;
+bottom: 25px;
+margin-left: 300px;
+color: #6f6b6b;
+font-size: 18px;
+}
+.icons img{
+    height: 30px;
+    margin-right: 23px;
+    /* right: 20px; */
+}
+.hero-container>div button{
+    /* position: absolute; */
+    /* bottom:0; */
+    position: relative;
+    bottom: 70px;
+    /* margin-left: 200px; */
+    left: 180px;
+    /* display: inline-block; */
+    /* transform: translate(-50%); */
+    font-family: 'Orbitron';
+    border-radius: 7px;
+    font-size: 16px;
+}
+.button-email{
+    background-color: #fff;
+    border: 3px solid #000;
+    padding: 2px 18px;
+    color: gray;
+    margin-right: 10px;
+    font-weight: 500;
+    
+}
+.button-join{
+    /* display: inline-block; */
+    background-color: #000;
+    color: #fff;
+    /* padding: 4px 8px; */
+
+}
+.hero-container-right>.hero-heading, .hero-container-right>.hero-description{
+    position: relative;
+    top: -150px;
+}
+.hero-container-right>.hero-heading{
+    font-family: 'Orbitron';
+    font-size: 53px;
+    margin: 0 auto;
+    width: 900px;
+    
+}
+.hero-container-right>.hero-description{
+    font-family: 'Poppins';
+    color: gray;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 630px;
+    font-size: 14px;
+    
+}
+.star{
+position: absolute;
+right: 220px;
+top:140px;
+}
+.star img{
+    height: 55px;
+}
+.globe img{
+    height: 55px;
+}
+.globe{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-100%);
+}
+.square::after{
+    content: url(/assets/start.png);
+    position: absolute;
+    bottom: 30px;
+    zoom:60%;
+    left: 40%;
+}
