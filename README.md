@@ -13,7 +13,7 @@
 ![Project-01 Preview](./Project-01.jpg)
 
 Project is deployed on **Netlify**:
-- You can preview Project here, [**Street Style Landing Page**]()
+- You can preview Project here, [**Street Style Landing Page**](https://street-style-landing-page-1.netlify.app/)
 
 
 
